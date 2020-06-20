@@ -1,3 +1,19 @@
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/'}
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.6, 0.99.99]'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+
+
 apply plugin: 'com.android.application'
 
 android {
@@ -15,7 +31,10 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "demo"]
+        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "demo", onesignal_app_id: 'xxxxxxxxxxxxxxxxxxxxx', onesignal_google_project_number: 'REMOTE']
+
+
+
     }
     buildTypes {
         release {
@@ -61,5 +80,8 @@ dependencies {
 
     //Auth0
     implementation 'com.auth0.android:auth0:1.+'
+
+    //OneSignal for Notifications
+    implementation 'com.onesignal:OneSignal:[3.13.0, 3.99.99]'
 
 }
