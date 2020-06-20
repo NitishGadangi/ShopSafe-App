@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ShopSafe</string>
+    <string name="tab_1">Notification</string>
+    <string name="tab_2">Home</string>
+    <string name="tab_3">Profile</string>
+
+    <string name="com_auth0_client_id">hgD1UJ7Ui33XFwzNQ9EJVgzOkBUAiBP0</string>
+    <string name="com_auth0_domain">dev-lh2wrih3.us.auth0.com</string>
+</resources>
