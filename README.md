@@ -10,6 +10,10 @@
   </a>
 </p>
 
+> **Update: This Project built for HackJaipur has selected as Best Jagaad and Best Project with Auth0 Integration**
+
+> **With over 2200+ participants all over the world, [HackJaipur](https://www.hackjaipur.com/) turns out to be the biggest online hackathon conducted in Asia-Pacific region**
+
 #### Stand in Shop Queues right from your Home [Submitted for HackJaipur]
 Shop Safe is an App that streamlines the process of standing in Queues in front of Grocery Stores and Shops. Also there is an automatic system which notifies users to Wear Mask based on GeoFencing.
 
